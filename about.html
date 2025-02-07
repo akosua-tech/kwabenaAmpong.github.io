@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Homepage</title>
+</head>
+
+<body>
+ <header class="header">
+    <a href="#" class="logo">All Stars Sports</a>
+    <nav class="navbar">
+        
+        <a href="Home.html">Home</a>
+        <a href="about.html">About</a>
+         <a href="football.html">Football</a>
+         <a href="golf.html">Golf</a>
+         <a href="cricket.html">Cricket</a>
+         <a href="netball.html">Netball</a>
+        
+     </nav>
+     <div class="icons">
+      <div class="" id="search-btn"></div>
+      <div class="fas fa bar" id="menu-btn"></div>
+      
+      </div>
+      <div class="search-form">
+        <input type="search" id="search-box" placeholder="search here....">
+        <label for="search-box" class="fas fa-search"></label>
+     </div>   
+ </header>
+<div class="about"> 
+<h1>
+    About All Star Sports
+</h1>
+<p>
+    All Star Sports is your ultimate destination for everything related to the world of sports. From the latest match scores to expert analysis, team updates, and player highlights, we bring you all the action from your favorite sports, both locally and internationally.
+
+Our mission is to keep sports fans informed with the most up-to-date and comprehensive coverage. Whether it's football, basketball, athletics, or any other sport, All Star Sports ensures you never miss a moment of the excitement.
+
+Stay tuned for in-depth articles, breaking news, interviews with top athletes, and insights from sports enthusiasts worldwide. Whether you’re a die-hard fan or just casually following your team, we have something for everyone.
+
+Thank you for choosing All Star Sports—where champions and fans unite!
+</p>
+</div>
+<div class="emma">
+    <footer>
+         <div class="footercontaner">
+             <div class="socialIcons">
+                 <a href=""><i class="fa-brands fa-facebook"></i></a>
+                 <a href=""><i class="fa-brands fa-instagram"></i></a>
+                 <a href=""><i class="fa-brands fa-twitter"></i></a>
+                 <a href=""><i class="fa-brands fa-google-plus"></i></a>
+                 <a href=""><i class="fa-brands fa-youtube"></i></a>
+             </div>
+             <div class="footerNav">
+                 <ul>
+                     <li><a href="">Home</a></li>
+                     <li><a href="">Naws</a></li>
+                     <li><a href="">about</a></li>
+                     <li><a href="">Contact Us</a></li>
+                     <li><a href="">Our Team</a></li>
+                     
+                 </ul>
+             </div>
+            
+           </div>
+           <div class="footerbotton">
+             <p>Copyright &copy;2025; Designed by<span class="designer">Ampong   </span></p>
+         </div>
+     </footer>   
+  </div>
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const menuBtn = document.getElementById("menu-btn");
+        const navbar = document.querySelector(".navbar");
+  
+        menuBtn.addEventListener("click", function () {
+            navbar.classList.toggle("active"); // Toggle the menu on click
+        });
+    });
+  </script>
+  
+</body>
+</html>

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Homepage</title>
+</head>
+
+<body>
+  
+ <header class="header">
+    <a href="#" class="logo">All Stars Sports</a>
+    <nav class="navbar">
+        
+        
+            <a href="Home.html">Home</a>
+           <a href="about.html">About</a>
+            <a href="football.html">Football</a>
+            <a href="golf.html">Golf</a>
+            <a href="cricket.html">Cricket</a>
+            <a href="netball.html">Netball</a>
+            
+            
+        
+     </nav>
+     <div class="icons">
+      <div class="" id="search-btn"></div>
+      <div class="fas fa bar" id="menu-btn"></div>
+      <div id="menu-btn">☰</div> <!-- This is the menu button -->
+
+      </div>
+      <div class="search-form">
+        <input type="search" id="search-box" placeholder="search here....">
+        <label for="search-box" class="fas fa-search"></label>
+     </div>   
+ </header>
+ 
+ <section class="home" id="home">
+    
+        <h3>get all your sport news <br> and more</h3>
+    </div>
+    
+ </section>
+ <section class="card-container">
+    <div class="card">
+        <img src="images/skysports-england-cricket-women_6783891.jpg"class="card-img-top" alt="image">
+        <div class="card-body">
+          <h5 class="card-title">CRICKET</h5>
+          <p class="card-text">England Test captain Ben Stokes to undergo surgery in January..........</p>
+          <a href="cricket.html" class="btn btn-secondry">click here to read more</a>
+        </div>
+      </div>
+      <div class="card">
+        <img src="images/SOC-Cristiano-Ronaldo.webp" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">FOOTBALL</h5>
+          <p class="card-text">Ronaldo's Portugal wins 1st Nations League title.............</p>
+          <a href="football.html" class="btn btn-primary">click here to read more</a>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <img src="images/golf.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">GOLF</h5>
+          <p class="card-text">World number one Scottie Scheffler will miss the PGA Tour's 2025......</p>
+          <a href="golf.html" class="btn btn-primary">click here to read more</a>
+        </div>
+      </div>
+      
+ </section>
+
+ <section class="card-container">
+  <div class="card">
+      <img src="images/skysports-olivia-tchine-sanmarie-visser_6817880.jpg"class="card-img-top" alt="image">
+      <div class="card-body">
+        <h5 class="card-title">Netball</h5>
+        <p class="card-text"> South Africa beat Vitality Roses in Nations Cup thriller</p>
+        <a href="netball.html" class="btn btn-secondry">click here to read more</a>
+      </div>
+    </div>
+   
+    
+    
+</section>
+<div class="emma">
+  <footer>
+       <div class="footercontaner">
+           <div class="socialIcons">
+               <a href=""><i class="fa-brands fa-facebook"></i></a>
+               <a href=""><i class="fa-brands fa-instagram"></i></a>
+               <a href=""><i class="fa-brands fa-twitter"></i></a>
+               <a href=""><i class="fa-brands fa-google-plus"></i></a>
+               <a href=""><i class="fa-brands fa-youtube"></i></a>
+           </div>
+           <div class="footerNav">
+               <ul>
+                   <li><a href="">Home</a></li>
+                   <li><a href="">Naws</a></li>
+                   <li><a href="">about</a></li>
+                   <li><a href="">Contact Us</a></li>
+                   <li><a href="">Our Team</a></li>
+                   
+               </ul>
+           </div>
+          
+         </div>
+         <div class="footerbotton">
+           <p>Copyright &copy;2025; Designed by<span class="designer">Ampong   </span></p>
+       </div>
+   </footer>   
+</div>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+      const menuBtn = document.getElementById("menu-btn");
+      const navbar = document.querySelector(".navbar");
+
+      menuBtn.addEventListener("click", function () {
+          navbar.classList.toggle("active"); // Toggle the menu on click
+      });
+  });
+</script>
+
+</body>
+</html>
